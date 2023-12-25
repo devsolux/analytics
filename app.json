@@ -1,6 +1,6 @@
 {
   "name": "DevSolux",
-  "description": "DevSolux is a simple, fast, website analytics alternative to Google Analytics.",
+  "description": "A simple, fast, website analytics alternative to Google Analytics.",
   "keywords": ["analytics", "charts", "statistics", "web-analytics"],
   "website": "https://devsolux.com",
   "repository": "https://github.com/devsolux/analytics",
