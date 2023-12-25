@@ -1,6 +1,6 @@
 # devsolux
 
-DevSolux is a simple, fast, privacy-focused alternative to Google Analytics.
+A simple, fast, privacy-focused alternative to Google Analytics.
 
 ## Installing from source
 
