@@ -13,10 +13,6 @@ A simple, fast, privacy-focused alternative to Google Analytics.
 
 ```bash
 yarn build
-
-npm install pm2 -g
-pm2 start npm --name analytics -- start
-pm2 save
 ```
 
 The build step will also create tables in your database if you ae installing for the first time. It will also create a login user with username **admin** and password **devsolux**.
@@ -75,6 +71,17 @@ Default administrator account with the username: admin and password: umami
 
 MIT
 
+### Plesk Next
+```bash
+Document Root: /httpdocs/.next/static
+Application Startup: node_modules/.bin/next
+
+nano node_modules/.bin/next
+find: const defaultCommand = 'dev';
+replace: const defaultCommand = 'start';
+```
+
 ## References
 - https://github.com/umami-software/umami
 - https://umami.is/docs
+- https://medium.com/@keithchasen/how-to-set-up-your-next-js-app-on-plesk-server-7d8d247a2db2
