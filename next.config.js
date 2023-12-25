@@ -8,7 +8,7 @@ const contentSecurityPolicy = [
   `img-src *`,
   `script-src 'self' 'unsafe-eval' 'unsafe-inline'`,
   `style-src 'self' 'unsafe-inline'`,
-  `connect-src 'self' analytics.devsolux.com`,
+  `connect-src 'self' ana.devsolux.com`,
   `frame-ancestors 'self' ${process.env.ALLOWED_FRAME_URLS || ''}`,
 ];
 
